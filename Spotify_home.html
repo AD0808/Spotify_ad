@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+
+    <style>
+        body{
+            min-height: 100vh;
+            background: linear-gradient(180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+            width:1750px;
+            height: 1110px;        }
+
+        .left-sec{
+            background-color: black;
+            height: 87%;
+            width: 371.8px;
+            position: fixed;
+            top: 0px;
+            left:0px;
+            color: white;      
+            font-family: sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+            letter-spacing: -0.0525em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            overflow:auto;
+            z-index: 1;
+        }
+
+        .logo{
+            position: absolute;
+            top:39.29px;
+            left:60px;
+            width: 202.58x;
+            height: 60.53px;
+        }
+
+
+        .left-options-top{
+            position: absolute;
+            width: 347.1px;
+            height: 170.46px;
+            top: 138.11px;
+            left: 12.35px;
+        }
+        .img-home{
+            position:absolute;
+            width: 29.65px;
+            height: 32.12px;
+            left: 60px;
+            top:152.93;
+        }
+        .img-search{
+            position: absolute;
+            width: 29.65px;
+            height: 29.65px;
+            top:60px;
+            left: 60px;
+        }
+        .img-lib{
+            position: absolute;
+            width: 27.7px;
+            height: 28.41px;
+            top: 120px;
+            left: 65px;
+        }
+        .txt-home{
+            position: absolute;
+            width: 63px;
+            height: 30.88px;
+            left: 125px;
+            top:10px;
+            color: white;
+        }
+        .txt-search{
+            position: absolute;
+            width: 72.88px;
+            height: 30.88px;
+            top: 65px;
+            left: 125px;
+        }
+        .txt-lib{
+            position: absolute;
+            width: 122.29px;
+            height: 30.88px;
+            top: 125px;
+            left: 125px;
+        }
+
+
+
+        .left-options-middle{
+            position: absolute;
+            width: 209.99px;
+            height: 160.58px;
+            top: 372.8px;
+            left: 37.06px;
+            line-height: 30px;
+        }
+        .img-create-sq{
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 40.76px;
+        }
+        .img-create-plus{
+            position: absolute;
+            width: 14.82px;
+            height: 14.82px;
+            top: 10px;
+            left: 50px;
+        }
+        .img-heart{
+            position:absolute;
+            width: 37.06px;
+            height: 37.06px;
+            left: 37.06px;
+            gap: 0px;
+            top:60px;
+            border-radius: 1px 0px 0px 0px;
+        }
+        .img-green-rec{
+            position:absolute;
+            width: 37.06px;
+            height: 37.06px;
+            top: 120px;
+            left: 37.06px;
+            gap: 0px;
+            border-radius: 5px 0px 0px 0px;
+        }
+        .img-green-inside{
+            position:absolute;
+            width: 21px;
+            height: 21px;
+            top: 127px;
+            left: 44px;
+        }
+        .create-text{
+            position:absolute;
+            width: 148.23px;
+            height: 30.88px;
+            left: 98.82px;
+        }
+        .liked-text{
+            position:absolute;
+            width: 123.52px;
+            height: 30.88px;
+            left: 98.82px;
+            top:60px;
+        }
+        .ep-text{
+            position:absolute;
+            width: 145.76px;
+            height: 30.88px;
+            left: 98.82px;
+            top:120px;
+        }
+
+
+        .left-playlists{
+            position:absolute;
+            width: 213.69px;
+            height: 277.92px;
+            top: 580.32px;
+            left: 37.06px;
+            line-height: 80px;
+        }
+        .fav{
+            position:absolute;
+            width: 39.53px;
+            height: 30.88px;
+            left: 38.29px;
+        }
+        .dm1{
+            position: absolute;
+            width: 103.76px;
+            height: 30.88px;
+            left: 37.06px;
+            top:40px
+        }
+        .discover{
+            position: absolute;
+            width: 165.52px;
+            height: 30.88px;
+            left: 37.06px;
+            top:80px
+        }
+        .malayalam{
+            position: absolute;
+            width: 108.7px;
+            height: 30.88px;
+            left: 37.06px;
+            top:120px
+        }
+        .dance{
+            position: absolute;
+            width: 213.69px;
+            height: 30.88px;
+            left: 37.06px;
+            top:160px
+        }
+        .edm{
+            position: absolute;
+            width: 144.52px;
+            height: 30.88px;
+            left: 37.06px;
+            top:200px
+        }
+
+
+        .install-app{
+            position: absolute;
+            width: 170.46px;
+            height: 30.88px;
+            top: 936.06px;
+            left: 37.06px;
+        }
+        .install-app-text{
+            position:absolute;
+            width: 108.7px;
+            height: 30.88px;
+            left: 98.82px;
+            top:2px;
+
+        }
+        .install-app-img{
+            position: absolute;
+            width: 29.65px;
+            height: 29.65px;
+            left: 37.06px;
+        }
+
+        .ell1{
+            position:absolute;
+            width: 40px;
+            height: 40px;
+            top: 20px;
+            left: 381px;
+        }
+        .ell2{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 20px;
+            left: 441px;
+        }
+        .left-img{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 28px;
+            left: 389px;
+        }
+        .right-img{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 28px;
+            left: 449px;
+        }
+
+
+        .user{
+            position: relative;
+            width: 147px;
+            height: 41px;
+            top: 16px;
+            left: 1563px;
+            border-radius: 33px;
+            background-color: black;
+        }
+        .ell3{
+            position: absolute;
+            width: 37px;
+            height: 37px;
+            top: 2px;
+        }
+        .txt-user{
+            position:absolute;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26.04px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+            width: 75px;
+            height: 31px;
+            top: 10px;
+            left: 55px;
+        }
+        .img-user-arrow{
+            position: absolute;
+            width: 21px;
+            height: 24px;
+            top: 10px;
+            left: 120px;
+        }
+
+        
+        .tplusp{
+            position: absolute;
+            width: 1147px;
+            height: 294px;
+            top: 112px;
+            left: 419px;
+        }
+        .gm-text{
+            font-family: sans-serif;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 49.48px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 280px;
+            height: 56px;
+            top: 112px;
+            left: 419px;
+            color: white;
+        }
+        .liked-songs{
+            position: absolute;
+            width: 362px;
+            height: 100px;
+            background-color: #303030;
+            border-radius: 4px;
+        }
+        .netflix{
+            position: absolute;
+            width: 362px;
+            height: 101px;
+            left: 400px;
+            border-radius: 4px;
+            background-color: #303030;
+        }
+        .kda{
+            position: absolute;
+            background-color: #303030;
+            width: 363px;
+            height: 100px;
+            left: 800px;
+            gap: 0px;
+            border-radius: 4px;
+        }
+        .dance2{
+            position: absolute;
+            background-color: #303030;
+            width: 363px;
+            height: 100px;
+            top: 180px;
+            left:0px;
+            border-radius: 4px;
+        }
+        .purple{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            gap: 0px;
+            border-radius: 4px;
+            background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+
+        }
+        .netflix img{
+            width: 99.72px;
+            height: 101px;
+            top: 186px;
+            left: 811px;
+            gap: 0px;
+            border-radius: 4px;
+        }
+        .kda img{
+            width: 100px;
+            height: 100px;
+            top: 186px;
+            left: 1203px;
+            gap: 0px;
+            border-radius: 4px;
+        }
+        .dance2 img{
+            width: 100px;
+            height: 100px;
+            top: 306px;
+            left: 419px;
+            gap: 0px;
+            border-radius: 4px;
+        }
+        .liked-songs-txt{
+            position: absolute;
+            width: 221px;
+            height: 26px;
+            margin-left: 135px;
+            margin-top: 37px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26.04px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .netflix-txt{
+            position: absolute;
+            width: 221px;
+            height: 26px;
+            margin-left: 30px;
+            margin-top: 37px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26.04px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .kda-txt{
+            position: absolute;
+            width: 221px;
+            height: 26px;
+            margin-left: 30px;
+            margin-top: 37px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26.04px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .dance2-txt{
+            position: absolute;
+            width: 200px;
+            height: 26px;
+            margin-left: 30px;
+            margin-top: 30px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26.04px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .heart{
+            position: absolute;
+            width: 29px;
+            height: 29px;
+            top: 206px;
+            left: 455px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        .see-all{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 22.13px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 100px;
+            height: 22px;
+            top: 445px;
+            color:#B3B3B3;
+            left: 1611px;
+        }
+        .dance-txt-image{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 8.32px;
+            font-weight: 700;
+            line-height: 7px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 75.31px;
+            height: 14px;
+            top: 370px;
+            left: 434px;
+            color: white;
+        }
+   
+        .shows{
+            position: absolute;
+            width: 1103.07px;
+            height: 664px;
+            top: 438px;
+            left: 419px;
+            gap: 0px;
+        }
+
+        .txt-shows{
+            font-family: sans-serif;
+            font-size: 29px;
+            font-weight: 700;
+            line-height: 37.76px;
+            letter-spacing: -0.04em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            width: 304.6px;
+            height: 60.96px;
+            top: 438px;
+            left: 419px;
+            color: white;
+        }
+        .artist-1{
+            position: absolute;
+            width: 251.29px;
+            height: 310px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+        }
+        .artist-1 img{
+            position: absolute;
+            width: 207.78px;
+            height: 207.93px;
+            gap: 0px;
+            margin:20px;
+            border-radius: 14px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+        }
+        .artist-2{
+            position: absolute;
+            width: 251.29px;
+            height: 310px;
+            left: 280px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%)
+        }
+        .artist-2 img{
+            width: 207.78px;
+            height: 207.93px;
+            top: 528.36px;
+            left: 724.68px;
+            border-radius: 14px;
+            background: linear-gradient(179.54deg, rgba(0, 0, 0, 0.65) 0.4%, rgba(0, 0, 0, 0) 32.6%);
+            margin:20px;
+        }
+        .artist-3{
+            position: absolute;
+            width: 251.29px;
+            height: 310px;
+            left: 560px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%)
+        }
+        .artist-3 img{
+            width: 207.78px;
+            height: 207.93px;
+            top: 528.36px;
+            left: 1008.61px;
+            gap: 0px;
+            margin:20px;
+            border-radius: 14px;
+            background: linear-gradient(181.88deg, rgba(0, 0, 0, 0.65) 1.59%, rgba(0, 0, 0, 0) 48.02%);
+        }
+        .artist-4{
+            position: absolute;
+            width: 251.29px;
+            height: 310px;
+            left: 840px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%)
+        }
+        .artist-4 img{
+            width: 207.78px;
+            height: 207.93px;
+            top: 528.36px;
+            left: 1292.54px;
+            border-radius: 14px;
+            margin:20px;
+            background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0) 50.26%);
+        }
+        .artist-5{
+            position: absolute;
+            width: 251.29px;
+            height: 240px;
+            top: 405px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%)
+        }
+        .artist-5 img{
+            width: 207.78px;
+            height: 170.44px;
+            top: 862.85px;
+            left: 440.76px;
+            gap: 0px;
+            border-radius: 14px;
+            margin:20px;
+            background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0) 50.26%);
+        }
+        .artist-6{
+            position: absolute;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+            width: 251.29px;
+            height: 240px;
+            top: 405px;
+            left: 280px;
+        }
+        .artist-6 img{
+            width: 207.78px;
+            height: 170.44px;
+            top: 862.85px;
+            left: 722.76px;
+            gap: 0px;
+            border-radius: 14px;
+            background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0) 50.26%);
+            margin:20px;
+        }
+        .artist-7{
+            position: absolute;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+            width: 251.29px;
+            height: 240px;
+            top: 405px;
+            left: 560px;
+        }
+        .artist-7 img{
+            width: 207.78px;
+            height: 170.44px;
+            top: 862.85px;
+            left: 1004.76px;
+            gap: 0px;
+            border-radius: 14px;
+            background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0) 50.26%);
+            margin:20px;
+        }
+        .artist-8{
+            position: absolute;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2275) 26.44%);
+            width: 251.29px;
+            height: 240px;
+            top: 405px;
+            left: 840px;
+        }
+        .artist-8 img{
+            width: 207.78px;
+            height: 170.44px;
+            top: 862.85px;
+            left: 1286.76px;
+            gap: 0px;
+            border-radius: 14px;
+            background: linear-gradient(179.7deg, rgba(0, 0, 0, 0.65) 0.26%, rgba(0, 0, 0, 0) 50.26%);
+            margin:20px;
+        }
+
+        
+        .art1-txt1{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 27.34px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+            width: 211.04px;
+            height: 27.22px;
+            top: 260px;
+            left: 25px;
+
+        }
+        .art1-txt2{
+            position: absolute;
+            width: 104.43px;
+            height: 21.77px;
+            top: 294px;
+            left: 25px;
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 19.53px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #B3B3B3;
+        }
+        .art2-txt1{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 27.34px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+            width: 211.04px;
+            height: 27.22px;
+            top: 260px;
+            left: 25px;
+
+        }
+        .art2-txt2{
+            position: absolute;
+            width: 130.43px;
+            height: 21.77px;
+            top: 294px;
+            left: 25px;
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 19.53px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #B3B3B3;
+        }
+        .art3-txt1{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 27.34px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+            width: 211.04px;
+            height: 27.22px;
+            top: 260px;
+            left: 25px;
+        }
+        .art3-txt2{
+            position: absolute;
+            width: 104.43px;
+            height: 21.77px;
+            top: 294px;
+            left: 25px;
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 19.53px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #B3B3B3;
+        }
+        .art4-txt1{
+            position: absolute;
+            font-family: sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 27.34px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+            width: 211.04px;
+            height: 27.22px;
+            top: 260px;
+            left: 25px;
+        }
+        .art4-txt2{
+            position: absolute;
+            width: 104.43px;
+            height: 21.77px;
+            top: 294px;
+            left: 25px;
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 19.53px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #B3B3B3;
+        }
+
+        .down-options{
+            border-width: 0px, 0px, 0px, 0px;
+            border-style: solid;
+            background-color: #282828;
+            width: 1728px;
+            height: 112px;
+            border: 1px;
+            position: fixed;
+            bottom:0px;
+            left:0px;
+            z-index: 2;
+        }
+        .down-artist{
+            position: absolute;
+            width: 224.88px;
+            height: 70px;
+            top: 20px;
+            left: 50px;
+        }
+        .down-artist img{
+            width: 62.97px;
+            height: 70px;
+            top: 1004px;
+            left: 17.09px;
+        }
+        .down-artist .icon{
+            position: absolute;
+            width: 21.59px;
+            height: 24px;
+            top: 25px;
+            left: 204px;
+        }
+        .down-artist-txt1{
+            position: absolute;
+            width: 109.74px;
+            height: 19px;
+            top: 16px;
+            left: 80px;
+            font-family:sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 23.44px;
+            letter-spacing: -0.05em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+        }
+        .down-artist-txt2{
+            position: absolute;
+            width: 109.74px;
+            height: 19px;
+            top: 37px;
+            left: 80px;
+            font-family:sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 19.53px;
+            letter-spacing: -0.05em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #B3B3B3;
+        }
+
+        .down-right{
+            position: absolute;
+            width: 270.76px;
+            height: 32px;
+            left: 1210px;
+            top:35px;
+        }
+        .microphone{
+            position: absolute;
+            width: 17.19px;
+            height: 18.91px;
+            top:9px;
+            left:-3px;
+        }
+        .carbon-query{
+            position: absolute;
+            width: 28.79px;
+            height: 32px;
+            left: 22px;
+        }
+        .carbon-laptop{
+            position: absolute;
+            width: 21.59px;
+            height: 24px;
+            top: 7px;
+            left: 65px;
+        }
+        .right-arrow{
+            position: absolute;
+            width: 21.59px;
+            height: 24px;
+            left: 250px;
+            top:7px;
+        }
+        .down-right-line{
+            position: absolute;
+            width: 104.35px;
+            height: 5px;
+            left: 135px;
+            top:17px;
+            border-radius: 2.5px;
+            background: #C4C4C4;
+        }
+        .speaker{
+            position: absolute;
+            width: 21.59px;
+            height: 24px;
+            top: 7px;
+            left: 100px;
+        }
+
+        .listen{
+            position: absolute;
+            width: 1728px;
+            height: 30px;
+            top:100px;
+            background: #1ED760;
+            z-index: 4;
+        }
+        .listen-txt{
+            position: absolute;
+            width: 280.5px;
+            height: 24px;
+            top:4px;
+            left: 1375px;
+            font-family: sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 22.13px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: black;
+        }
+        .speaker2{
+            position: absolute;
+            width: 16.2px;
+            height: 18px;
+            top: 6px;
+            left: 1355px;
+        }
+        .green-arrow{
+            position: absolute;
+            width: 19.8px;
+            height: 11px;
+            top: 1076px;
+            left: 1500px;
+        }
+        .music-player{
+            position: absolute;
+            width: 704px;
+            height: 80px;
+            top: 15px;
+            left: 405px;
+        }
+        .pause-btn{
+            position: absolute;
+            width: 51px;
+            height: 51px;
+            left: 325px;
+        }
+        .skip-prev{
+            position: absolute;
+            width: 31px;
+            height: 31px;
+            top: 10px;
+            left: 275px;
+        }
+        .skip-next{
+            position: absolute;
+            width: 31px;
+            height: 31px;
+            top: 10px;
+            left: 390px;
+        }
+        .arrow-repeat{
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            top: 15px;
+            left: 440px;
+        }
+        .music-shuffle{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 15px;
+            left: 235px;
+        }
+        .list-1{
+            position: absolute;
+            top:4px;
+        }   
+        .left-line{
+            position: absolute;
+            width: 640px;
+            height: 5px;
+            top: 70px;
+            left: 30px;
+            gap: 0px;
+            border-radius: 2.5px;
+            background: #535353;
+        }
+        .right-line{
+            position: absolute;
+            width: 511px;
+            height: 5px;
+            top: 70px;
+            left: 30px;
+            gap: 0px;
+            border-radius: 2.5px;
+            background: #c4c4c4;
+        }
+        .list2-txt1{
+            position: absolute;
+            width: 31px;
+            height: 19px;
+            top: 63px;
+            left: -2px;;
+            font-family:sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 18.23px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #C4C4C4;
+        }
+        .list2-txt2{
+            position: absolute;
+            width: 31px;
+            height: 19px;
+            top: 63px;
+            left: 675px;
+            font-family:sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 18.23px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #C4C4C4;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="left-sec">
+        
+        <div class="logo">
+            <img src="/Spotify logo.png" />
+        </div>
+
+        <div class="left-options-top">
+
+            <a href="Spotify_home.html">
+                <div>
+                    <span>
+                        <span class="img-home"><img src="fi-ss-home.png"/></span>
+                        <span class="txt-home">Home</span>
+                    </span>
+                </div>
+            </a>
+           
+            <div>
+                <span>
+                    <span class="img-search"><img src="fi-rs-search.png"/></span>
+                    <span class="txt-search">Search</span>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <span class="img-lib"><img src="library.png"/></span>
+                    <span class="txt-lib">Library</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="left-options-middle">
+            <div>
+                <img class="img-create-sq" src="Rectangle 9.png" /><img class="img-create-plus" src="fi-ss-plus-small.png"/>
+                <span class="create-text">Create Playlist</span>
+            </div>
+            <div>
+                <span class="img-heart"><img src="Group 2.png" /></span>
+                <span class="liked-text">Liked Songs</span>       
+            </div>
+            <div>
+                <img class="img-green-rec" src="Rectangle 10.png" /><img class="img-green-inside" src="gg_media-podcast.png"/>
+                <span class="ep-text">Your Episodes</span>
+            </div>
+        </div>
+
+        <div class="left-playlists">
+            <div class="fav">
+                FAV
+            </div>
+            <div class="dm1">
+                Daily Mix 1
+            </div>
+            <div class="discover">
+                Discover Weekly
+            </div>
+            <div class="malayalam">
+                Malayalam
+            </div>
+            <div class="dance">
+                Dance / Electronix Mix
+            </div>
+            <div class="edm">
+                EDM / Popular
+            </div>
+        </div>
+
+        <div class="install-app">
+            <span class="install-app-img"><img src="grommet-icons_install-option.png" /></span>
+            <span class="install-app-text">Install App</span>
+        </div>
+    
+    </div>
+
+
+    <div class="nav-btn">
+        <img class="ell1" src="Ellipse 1.png" />
+        <img class="ell2" src="Ellipse 2.png" />
+        <img class="left-img" src="fi-rr-angle-small-left.png" />
+        <img class="right-img" src="fi-rr-angle-small-right.png" />
+    </div>
+
+    <div class="user">
+        <img src="Ellipse 3.png" class="ell3" />
+        <span class="txt-user">Angel</span>
+        <img class="img-user-arrow" src="fi-ss-caret-down.png" />
+    </div>
+
+    <div class="tplusp">
+        <div class="gm-text">
+            Good Morning
+        </div>
+        <div class="liked-songs">         
+            <span class="purple"></span>
+            <span class="liked-songs-txt">Liked Songs</span>
+        </div>
+        <div  class="netflix">
+            <img src="Group 1 3.png" /><span class="netflix-txt">Neffex Playlist</span>
+    
+        </div>
+        <div class="kda">
+            <img src="Group 1 2.png" /><span class="kda-txt">K/ DA</span>
+        </div>
+        <div class="dance2">
+            <img src="Group 1.png" /><span class="dance2-txt">Dance / Electronic Mix</span>
+        </div>    
+    </div>
+    <img class="heart" src="fi-ss-heart.png" />
+    
+    <div class="shows">
+        <div class="txt-shows">Shows you might like</div>
+        <span class="artist-1">
+            <img src="Rectangle 16.png"/><span class="art1-txt1">Weekly Motivatio...</span><span class="art1-txt2">Ben Ina Scott</span>
+        </span>
+        <span class="artist-2">
+            <img src="Rectangle 16-2.png" /><span class="art2-txt1">MEDITATION SELF</span><span class="art2-txt2">Ibn Hussain Aleen</span>
+        </span>    
+        <div class="artist-3">
+            <img src="Rectangle 16-3.png"/><span class="art3-txt1">Words beyond act...</span><span class="art3-txt2">Samuel Scott</span>
+        </div>
+        <div class="artist-4">
+            <img src="Rectangle 16-4.png"/><span class="art4-txt1">The Alexa Show</span><span class="art4-txt2">Adriana Tom</span>
+        </div>
+        <div class="artist-5">
+            <img src="Rectangle 16-5.png"/>
+        </div>
+        <div class="artist-6">
+            <img src="Rectangle 16-5.png"/>
+        </div>
+        <div class="artist-7">
+            <img src="Rectangle 16-5.png"/>
+        </div>
+        <div class="artist-8">
+            <img src="Rectangle 16-5.png"/>
+        </div>
+        
+    </div>
+
+    <div class="see-all">
+        SEE ALL
+    </div>
+
+    <span class="dance-txt-image">
+        Dance / Electronic Mix
+    </span>
+
+    <div class="down-options">
+        <div class="down-artist">
+            <img src="Rectangle 20.png"/>
+            <span class="down-artist-txt1">Dreaming On</span>
+            <span class="down-artist-txt2">NEFFEX</span>
+            <img class="icon" src="bx_bxs-heart.png" />
+        </div>
+        <div class="down-right">
+            <img class="microphone" src="ph_microphone-stage.png" />
+            <img class="carbon-query" src="carbon_query-queue.png" />
+            <img class="carbon-laptop" src="carbon_laptop.png" />
+            <img class="speaker" src="fluent_speaker-2-24-regular.png" />
+            <div class="down-right-line"></div>
+            <img class="right-arrow" src="tabler_arrows-diagonal.png" />
+        </div>
+
+        <div class="music-player">
+            <div class="list-1">
+                <img class="skip-prev" src="bx_bx-skip-previous-2.png"/>
+                <img class="skip-next" src="bx_bx-skip-previous.png"/>
+                <img class="pause-btn" src="gridicons_play.png" />
+                <img class="arrow-repeat" src="fluent_arrow-repeat-all-20-regular.png"/>
+                <img class="music-shuffle" src="raphael_shuffle.png" />
+            </div>
+            <div class="list-2">
+                <span class="list2-txt1">2:11</span>
+                <div class="left-line"></div>
+                <div class="right-line"></div>
+                <span class="list2-txt2">2:42</span>
+            </div>
+            
+        </div>
+    </div>
+
+    
+<!-- 
+    <div class="listen">
+        <img class="speaker2"  src="fluent_speaker-2-24-regular-2.png"/>
+        <span class="listen-txt">Listening on ASUS-ROG-G531GT</span>
+    </div>
+    <img class="green-arrow" src="Vector 1.png" /> -->
+    
+</body>
+</html>
